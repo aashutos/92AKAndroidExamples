@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".application.MainActivity">
+
+    <Button
+        android:id="@+id/btnNet"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="@string/lblNetTask"
+        android:background="#EEE"/>
+    <Button
+        android:id="@+id/btnLocal"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="@string/lblLocalTask"
+        android:background="#EEE"/>
+    <ImageView
+        android:id="@+id/imgView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/andr_green"
+        android:layout_weight="1" />
+    <TextView
+        android:id="@+id/txtView"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:text="@string/def_text"
+        android:gravity="center_vertical"
+        android:background="@color/colorBgTextBottom"
+        android:textAlignment="center" />
+    
+</LinearLayout>

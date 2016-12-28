@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="colorBgTextBottom">#56C2FF</color>
+    <color name="colorBgTextBottom_LocalPending">#57FF3B</color>
+    <color name="colorBgTextBottom_NetPending">#FF9C43</color>
+    <color name="colorAndrLogoBgAfter">#6729AA</color>
+    <color name="colorAndrLogoActorAfter">#2983AA</color>
+</resources>

@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">JobSchedulerExample</string>
+    <string name="lblNetTask">Execute Network Task</string>
+    <string name="lblLocalTask">Execute Local Task</string>
+
+    <string name="def_text">Default text</string>
+    <string name="pendNet_text">Network Button Clicked</string>
+    <string name="pendLocal_text">Local Button Clicked</string>
+</resources>
