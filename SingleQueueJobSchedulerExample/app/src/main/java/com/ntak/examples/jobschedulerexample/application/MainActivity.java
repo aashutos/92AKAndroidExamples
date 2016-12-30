@@ -59,7 +59,7 @@ public class MainActivity extends AppCompatActivity {
             callbackTasks.register(this);
 
         try {
-            final URL url = new URL("http://wallpapersonthe.net/wallpapers/b/5120x4096/5120x4096-gundam_anime-18776.jpg");
+            final URL url = new URL("http://www.mediafire.com/convkey/69e2/zp6wgh8yv5f5r5xzg.jpg");
 
             btnNetwork.setOnClickListener(new View.OnClickListener() {
                 @Override
@@ -78,7 +78,7 @@ public class MainActivity extends AppCompatActivity {
                     btnLocal.setEnabled(false);
                 }
             });
-            
+
         } catch (MalformedURLException e) {
             Log.e(TAG, "onCreate: Unable to set up Network Task as URL is invalid.",e);
         }
@@ -140,12 +140,12 @@ public class MainActivity extends AppCompatActivity {
 
     }
 
-    /*
-b    @Subscribe(threadMode=ThreadMode.MAIN)
+
+    @Subscribe(threadMode=ThreadMode.MAIN)
     public void handleCallbackQueue(Object item) {
         Log.i(TAG, "handleCallbackQueue(Object): executed");
         return;
-    }*/
+    }
 
     @Subscribe(threadMode=ThreadMode.MAIN)
     public void handleCallbackQueue(Bitmap item) {
@@ -191,7 +191,7 @@ b    @Subscribe(threadMode=ThreadMode.MAIN)
             Log.w(TAG, "handleCallbackQueue: Invalid Map passed in");
         }
     }
-    
+
     @Override
     protected void onDestroy() {
         super.onDestroy();
