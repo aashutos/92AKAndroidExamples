@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">JNIExample</string>
+    <string name="lblLocalTask">Execute Local Task</string>
+
+    <string name="def_text">Default text</string>
+    <string name="pendLocal_text">Local Button Clicked</string>
+    <string name="lblLocalTaskC">Local Button JNI Code Clicked</string>
+</resources>
